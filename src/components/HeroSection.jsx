@@ -1,4 +1,3 @@
-import video1 from "../assets/video1.mp4";
 import video2 from "../assets/video2.mp4";
 
 const HeroSection = () => {
@@ -30,15 +29,7 @@ const HeroSection = () => {
         </a>
       </div>
       <div className="flex flex-col lg:flex-row mt-10 justify-center items-center lg:items-stretch">
-        <video
-          autoPlay
-          loop
-          muted
-          className="rounded-lg w-full lg:w-1/2 border border-green-700 shadow-sm shadow-green-400 mx-2 my-4"
-        >
-          <source src={video1} type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
+        
         <video
           autoPlay
           loop
