@@ -1,9 +1,12 @@
-import { BotMessageSquare } from "lucide-react";
-import { BatteryCharging } from "lucide-react";
-import { Fingerprint } from "lucide-react";
-import { ShieldHalf } from "lucide-react";
-import { PlugZap } from "lucide-react";
-import { GlobeLock } from "lucide-react";
+import {
+  BarChart, // Example for DataAnalytics
+  Layers,   // Example for Scalability
+  TrendingUp, // Example for PredictiveAnalytics
+  Leaf, // Example for Sustainability
+  Users, // Example for Collaboration
+  PieChart, // Example for AnalyticsDashboard
+} from "lucide-react";
+
 
 import user1 from "../assets/profile-pictures/user1.jpg";
 import user2 from "../assets/profile-pictures/user2.jpg";
@@ -13,10 +16,9 @@ import user5 from "../assets/profile-pictures/user5.jpg";
 import user6 from "../assets/profile-pictures/user6.jpg";
 
 export const navItems = [
-  { label: "Features", href: "#" },
-  { label: "Workflow", href: "#" },
-  { label: "Pricing", href: "#" },
-  { label: "Testimonials", href: "#" },
+  { label: "Features", href: "#features" },
+  { label: "Pricing", href: "#pricing" },
+  { label: "Testimonials", href: "#testimonials" },
 ];
 
 export const testimonials = [
@@ -24,135 +26,134 @@ export const testimonials = [
     user: "John Doe",
     company: "Stellar Solutions",
     image: user1,
-    text: "I am extremely satisfied with the services provided. The team was responsive, professional, and delivered results beyond my expectations.",
+    text: "Urbanizer has transformed our approach to urban planning. The real-time data integration has allowed us to optimize our water usage significantly, leading to a 20% reduction in waste.",
   },
   {
     user: "Jane Smith",
     company: "Blue Horizon Technologies",
     image: user2,
-    text: "I couldn't be happier with the outcome of our project. The team's creativity and problem-solving skills were instrumental in bringing our vision to life",
+    text: "The predictive analytics feature of Urbanizer has been a game-changer for us. It helps us anticipate infrastructure needs and allocate resources more efficiently",
   },
   {
     user: "David Johnson",
     company: "Quantum Innovations",
     image: user3,
-    text: "Working with this company was a pleasure. Their attention to detail and commitment to excellence are commendable. I would highly recommend them to anyone looking for top-notch service.",
+    text: "We appreciate how Urbanizer adapts to various urban environments. Its modular design makes it easy to implement in cities of different sizes and capacities.",
   },
   {
     user: "Ronee Brown",
     company: "Fusion Dynamics",
     image: user4,
-    text: "Working with the team at XYZ Company was a game-changer for our project. Their attention to detail and innovative solutions helped us achieve our goals faster than we thought possible. We are grateful for their expertise and professionalism!",
+    text: "Thanks to Urbanizer, we have successfully integrated green spaces into our projects. The platform’s insights on land use have been invaluable!",
   },
   {
     user: "Michael Wilson",
     company: "Visionary Creations",
     image: user5,
-    text: "I am amazed by the level of professionalism and dedication shown by the team. They were able to exceed our expectations and deliver outstanding results.",
+    text: "As educators, we find Urbanizer to be an excellent tool for teaching students about sustainable urban planning. Its real-world applications make learning engaging and relevant.",
   },
   {
     user: "Emily Davis",
     company: "Synergy Systems",
     image: user6,
-    text: "The team went above and beyond to ensure our project was a success. Their expertise and dedication are unmatched. I look forward to working with them again in the future.",
+    text: "Urbanizer's commitment to sustainability aligns perfectly with our mission. The ability to monitor environmental impacts in real-time is crucial for our advocacy efforts.",
   },
 ];
 
 export const features = [
   {
-    icon: <BotMessageSquare />,
-    text: "Drag-and-Drop Interface",
+    icon: <BarChart />,
+    text: "Real-Time Data Integration",
     description:
-      "Easily design and arrange your VR environments with a user-friendly drag-and-drop interface.",
+      "Seamlessly integrate IoT sensor data in real-time to optimize urban resource management and enhance decision-making.",
   },
   {
-    icon: <Fingerprint />,
-    text: "Multi-Platform Compatibility",
+    icon: <Layers />,
+    text: "Modular Architecture",
     description:
-      "Build VR applications that run seamlessly across multiple platforms, including mobile, desktop, and VR headsets.",
+      "Adapt Urbanizer to cities of all sizes with a flexible, modular design that meets varying urban planning needs.",
   },
   {
-    icon: <ShieldHalf />,
-    text: "Built-in Templates",
+    icon: <TrendingUp />,
+    text: "Predictive Maintenance",
     description:
-      "Jumpstart your VR projects with a variety of built-in templates for different types of applications and environments.",
+      "Utilize AI-driven predictive analytics to anticipate infrastructure needs and reduce maintenance costs.",
   },
   {
-    icon: <BatteryCharging />,
-    text: "Real-Time Preview",
+    icon: <Leaf />,
+    text: "Sustainability Insights",
     description:
-      "Preview your VR application in real-time as you make changes, allowing for quick iterations and adjustments.",
+      "Gain insights into resource usage and environmental impact, helping cities implement sustainable practices.",
   },
   {
-    icon: <PlugZap />,
-    text: "Collaboration Tools",
+    icon: <Users />,
+    text: "Stakeholder Collaboration Tools",
     description:
-      "Work together with your team in real-time on VR projects, enabling seamless collaboration and idea sharing.",
+      "Facilitate collaboration among city planners, government officials, and community members for effective urban planning.",
   },
   {
-    icon: <GlobeLock />,
-    text: "Analytics Dashboard",
+    icon: <PieChart />,
+    text: "Comprehensive Analytics Dashboard",
     description:
-      "Gain valuable insights into user interactions and behavior within your VR applications with an integrated analytics dashboard.",
+      "Access an integrated dashboard for monitoring user interactions and resource management metrics in real-time.",
   },
 ];
 
 export const checklistItems = [
   {
-    title: "Code merge made easy",
+    title: "Streamlined Resource Management",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Optimize water and energy usage with real-time data insights and analytics.",
   },
   {
-    title: "Review code without worry",
+    title: "Enhanced Decision-Making",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Leverage predictive analytics to make informed decisions about urban infrastructure and resource allocation.",
   },
   {
-    title: "AI Assistance to reduce time",
+    title: "Community Engagement Tools",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Engage with local communities through feedback mechanisms to ensure their needs are met in urban planning.",
   },
   {
-    title: "Share work in minutes",
+    title: "Pilot Project Support",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "Receive guidance on implementing pilot projects to demonstrate Urbanizer's effectiveness in real-world scenarios.",
   },
 ];
 
 export const pricingOptions = [
   {
-    title: "Free",
+    title: "Basic",
     price: "$0",
     features: [
-      "Private board sharing",
-      "5 Gb Storage",
-      "Web Analytics",
-      "Private Mode",
+      "Access to core features",
+      "Limited data integration",
+      "Basic analytics dashboard",
+      "Community feedback tools",
     ],
   },
   {
-    title: "Pro",
-    price: "$10",
+    title: "Professional",
+    price: "$50",
     features: [
-      "Private board sharing",
-      "10 Gb Storage",
-      "Web Analytics (Advance)",
-      "Private Mode",
+      "Full data integration capabilities",
+      "Advanced analytics dashboard",
+      "Predictive maintenance tools",
+      "Stakeholder collaboration features",
     ],
   },
   {
     title: "Enterprise",
-    price: "$200",
+    price: "$500",
     features: [
-      "Private board sharing",
-      "Unlimited Storage",
-      "High Performance Network",
-      "Private Mode",
+      "Unlimited data integration",
+      "Customizable analytics solutions",
+      "Dedicated support for pilot projects",
+      "Comprehensive stakeholder engagement tools",
     ],
   },
 ];
-
 export const resourcesLinks = [
   { href: "#", text: "Getting Started" },
   { href: "#", text: "Documentation" },

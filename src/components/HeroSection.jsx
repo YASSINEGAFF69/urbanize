@@ -2,37 +2,39 @@ import video1 from "../assets/video1.mp4";
 import video2 from "../assets/video2.mp4";
 
 const HeroSection = () => {
+  
   return (
-    <div className="flex flex-col items-center mt-6 lg:mt-20">
+    <div className="flex flex-col items-center mt-6 lg:mt-20 bg-white text-black">
       <h1 className="text-4xl sm:text-6xl lg:text-7xl text-center tracking-wide">
-        VirtualR build tools
-        <span className="bg-gradient-to-r from-orange-500 to-red-800 text-transparent bg-clip-text">
+      A System for the  
+        <span className="bg-gradient-to-r from-green-500 to-green-800 text-transparent bg-clip-text">
           {" "}
-          for developers
+          Health and Well-Being 
+          {" "}
+
         </span>
+         of A City
       </h1>
-      <p className="mt-10 text-lg text-center text-neutral-500 max-w-4xl">
-        Empower your creativity and bring your VR app ideas to life with our
-        intuitive development tools. Get started today and turn your imagination
-        into immersive reality!
+      <p className="mt-10 text-lg text-center text-neutral-600 max-w-4xl">
+      Urbanizer is working to become the global standard for setting the health and wellbeing of cities, communities and towns.
       </p>
       <div className="flex justify-center my-10">
         <a
           href="#"
-          className="bg-gradient-to-r from-orange-500 to-orange-800 py-3 px-4 mx-3 rounded-md"
+          className="bg-gradient-to-r from-green-500 to-green-800 py-3 px-4 mx-3 rounded-md text-white"
         >
-          Start for free
+          try our demo
         </a>
-        <a href="#" className="py-3 px-4 mx-3 rounded-md border">
-          Documentation
+        <a href="#" className="py-3 px-4 mx-3 rounded-md border border-neutral-300">
+          learn more
         </a>
       </div>
-      <div className="flex mt-10 justify-center">
+      <div className="flex flex-col lg:flex-row mt-10 justify-center items-center lg:items-stretch">
         <video
           autoPlay
           loop
           muted
-          className="rounded-lg w-1/2 border border-orange-700 shadow-sm shadow-orange-400 mx-2 my-4"
+          className="rounded-lg w-full lg:w-1/2 border border-green-700 shadow-sm shadow-green-400 mx-2 my-4"
         >
           <source src={video1} type="video/mp4" />
           Your browser does not support the video tag.
@@ -41,7 +43,7 @@ const HeroSection = () => {
           autoPlay
           loop
           muted
-          className="rounded-lg w-1/2 border border-orange-700 shadow-sm shadow-orange-400 mx-2 my-4"
+          className="rounded-lg w-full lg:w-1/2 border border-green-700 shadow-sm shadow-green-400 mx-2 my-4"
         >
           <source src={video2} type="video/mp4" />
           Your browser does not support the video tag.
